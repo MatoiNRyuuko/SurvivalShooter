@@ -13,11 +13,13 @@
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
-    <CompilerResponseFile></CompilerResponseFile>
+    <CompilerResponseFile>
+    </CompilerResponseFile>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2017.2.0f3</UnityVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <LangVersion>4</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -302,6 +304,241 @@
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerShooting.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\Unity-master\common\SolutionInfo.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Application\ApiClient.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Application\ApplicationConfiguration.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Application\ApplicationInfo.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Application\ApplicationManagerBase.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Application\IApiClient.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Application\IApplicationManager.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Application\LoginResult.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Application\Organization.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Authentication\AuthenticationResult.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Authentication\AuthenticationResultExtensions.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Authentication\Credential.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Authentication\ICredentialManager.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Authentication\IKeychain.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Authentication\ILoginManager.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Authentication\Keychain.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Authentication\KeychainAdapter.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Authentication\LoginManager.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Cache\CacheInterfaces.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Events\RepositoryWatcher.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Extensions\AsyncExtensions.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Extensions\EnvironmentExtensions.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Extensions\ExceptionExtensions.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Extensions\FileEventExtensions.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Extensions\FileSystemExtensions.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Extensions\ListExtensions.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Extensions\StreamExtensions.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Extensions\StringExtensions.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Extensions\UriExtensions.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Git\FailureSeverity.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Git\GitAheadBehindStatus.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Git\GitBranch.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Git\GitClient.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Git\GitConfig.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Git\GitConfigSource.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Git\GitCredentialManager.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Git\GitFileStatus.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Git\GitLock.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Git\GitLogEntry.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Git\GitObjectFactory.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Git\GitRemote.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Git\GitStatus.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Git\GitStatusEntry.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Git\IGitObjectFactory.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Git\IRepository.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Git\Repository.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Git\RepositoryManager.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Git\Tasks\GitAddTask.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Git\Tasks\GitAheadBehindStatusTask.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Git\Tasks\GitBranchCreateTask.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Git\Tasks\GitBranchDeleteTask.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Git\Tasks\GitCheckoutTask.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Git\Tasks\GitCommitTask.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Git\Tasks\GitConfigGetTask.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Git\Tasks\GitConfigListTask.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Git\Tasks\GitConfigSetTask.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Git\Tasks\GitFetchTask.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Git\Tasks\GitInitTask.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Git\Tasks\GitLfsInstallTask.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Git\Tasks\GitLfsVersionTask.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Git\Tasks\GitListBranchesTask.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Git\Tasks\GitListLocksTask.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Git\Tasks\GitLockTask.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Git\Tasks\GitLogTask.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Git\Tasks\GitPullTask.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Git\Tasks\GitPushTask.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Git\Tasks\GitRemoteAddTask.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Git\Tasks\GitRemoteBranchDeleteTask.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Git\Tasks\GitRemoteChangeTask.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Git\Tasks\GitRemoteListTask.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Git\Tasks\GitRemoteRemoveTask.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Git\Tasks\GitRemoveFromIndexTask.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Git\Tasks\GitRevertTask.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Git\Tasks\GitStatusTask.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Git\Tasks\GitSwitchBranchesTask.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Git\Tasks\GitUnlockTask.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Git\Tasks\GitVersionTask.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Git\TreeData.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Git\ValidateGitInstallResult.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\GlobalSuppressions.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Helpers\AssemblyResources.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Helpers\Constants.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Helpers\Guard.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Helpers\Progress.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Helpers\SimpleJson.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Helpers\TaskHelpers.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Helpers\Validation.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Installer\GitInstaller.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Installer\IZipHelper.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Installer\UnzipTask.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Installer\ZipHelper.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\IO\FileSystem.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\IO\FileSystemHelpers.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\IO\NiceIO.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\IO\Utils.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\IO\Watches\AdaptiveFileSystemWatch.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\IO\Watches\DefaultFileSystemWatch.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\IO\Watches\FileSystemWatch.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\IO\Watches\FileSystemWatcherWrapper.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\IO\Watches\FileSystemWatchFactory.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\IO\Watches\FileSystemWatchWrapperFactory.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\IO\Watches\IFileSystemWatcherWrapper.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\IO\Watches\IFileSystemWatchListener.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\IO\Watches\IFileSystemWatchWrapperFactory.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\IO\Watches\WatchArguments.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Localization.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Localization.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Metrics\IMetricsService.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Metrics\IUsageTracker.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Metrics\UsageModel.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Metrics\UsageTracker.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\OutputProcessors\BranchListOutputProcessor.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\OutputProcessors\GitAheadBehindStatusOutputProcessor.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\OutputProcessors\IProcessManager.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\OutputProcessors\LfsVersionOutputProcessor.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\OutputProcessors\LineProcessor.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\OutputProcessors\LockOutputProcessor.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\OutputProcessors\LogEntryOutputProcessor.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\OutputProcessors\ProcessManager.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\OutputProcessors\RemoteListOutputProcessor.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\OutputProcessors\StatusOutputProcessor.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\OutputProcessors\VersionOutputProcessor.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Platform\DefaultEnvironment.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Platform\FindExecTask.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Platform\IEnvironment.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Platform\IProcessEnvironment.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Platform\ISettings.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Platform\Platform.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Platform\ProcessEnvironment.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Platform\Settings.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Primitives\HostAddress.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Primitives\StringEquivalent.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Primitives\UriString.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Properties\AssemblyInfo.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Tasks\ActionTask.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Tasks\BaseOutputProcessor.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Tasks\ConcurrentExclusiveInterleave.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Tasks\ConfigOutputProcessor.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Tasks\DownloadTask.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Tasks\ITaskManager.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Tasks\OctorunTask.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Tasks\ProcessTask.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Tasks\TaskBase.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Tasks\TaskCanceledExceptions.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Tasks\TaskExtensions.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Tasks\TaskManager.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Threading\IAwaitable.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Threading\IAwaiter.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Threading\IMainThreadSynchronizationContext.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\Threading\ThreadingHelper.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Api\UI\TreeBase.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Logging\ConsoleLogAdapter.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Logging\Extensions\ExceptionExtensions.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Logging\FileLogAdapter.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Logging\GlobalSuppressions.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Logging\ILogging.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Logging\LogAdapterBase.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Logging\LogFacade.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Logging\LogHelper.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Logging\MultipleLogAdapter.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Logging\NullLogAdapter.cs" />
+    <Compile Include="Assets\Unity-master\src\GitHub.Logging\Properties\AssemblyInfo.cs" />
+    <Compile Include="Assets\Unity-master\src\packaging\CopyLibrariesToDevelopmentFolder\Class1.cs" />
+    <Compile Include="Assets\Unity-master\src\packaging\CopyLibrariesToPackageProject\Class1.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\IntegrationTests\Auth\LoginTests.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\IntegrationTests\BaseGitEnvironmentTest.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\IntegrationTests\BaseIntegrationTest.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\IntegrationTests\BasePlatformIntegrationTest.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\IntegrationTests\BaseTaskManagerTest.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\IntegrationTests\Download\DownloadTaskTests.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\IntegrationTests\Events\RepositoryManagerTests.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\IntegrationTests\Events\RepositoryWatcherTests.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\IntegrationTests\Git\GitClientTests.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\IntegrationTests\Git\GitSetupTests.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\IntegrationTests\Installer\GitInstallerTests.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\IntegrationTests\IntegrationTestEnvironment.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\IntegrationTests\Process\ProcessManagerIntegrationTests.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\IntegrationTests\ProcessManagerExtensions.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\IntegrationTests\Properties\AssemblyInfo.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\IntegrationTests\SetUpFixture.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\IntegrationTests\ThreadSynchronizationContext.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\IntegrationTests\UnzipTaskTests.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\Properties\AssemblyInfo.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\TaskSystemIntegrationTests\Properties\AssemblyInfo.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\TaskSystemIntegrationTests\SynchronizationContextTaskScheduler.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\TaskSystemIntegrationTests\Tests.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\TaskSystemIntegrationTests\ThreadSynchronizationContext.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\TestApp\Mono.Options-PCL.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\TestApp\Program.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\TestApp\Properties\AssemblyInfo.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\TestUtils\Events\IRepositoryListener.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\TestUtils\Events\IRepositoryManagerListener.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\TestUtils\Helpers\Args.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\TestUtils\Helpers\AssertExtensions.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\TestUtils\Helpers\TestSynchronizationContext.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\TestUtils\Helpers\TestUIDispatcher.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\TestUtils\Properties\AssemblyInfo.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\TestUtils\Substitutes\CreateEnvironmentOptions.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\TestUtils\Substitutes\CreateFileSystemOptions.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\TestUtils\Substitutes\CreateRepositoryProcessRunnerOptions.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\TestUtils\Substitutes\SubstituteFactory.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\TestWebServer\HttpServer.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\TestWebServer\Properties\AssemblyInfo.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\UnitTests\Authentication\KeychainTests.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\UnitTests\Extensions\EnvironmentExtensionTests.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\UnitTests\Extensions\ListExtensionTests.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\UnitTests\Git\GitConfigTests.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\UnitTests\Git\ValidationTests.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\UnitTests\IO\BaseOutputProcessorTests.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\UnitTests\IO\BranchListOutputProcessorTests.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\UnitTests\IO\FileSystemHelperTests.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\UnitTests\IO\GitEnvironmentTestsBase.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\UnitTests\IO\GitLogEntryListTests.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\UnitTests\IO\GitLogEntryTests.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\UnitTests\IO\GitStatusEntryFactoryTests.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\UnitTests\IO\GitStatusEntryListTests.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\UnitTests\IO\GitStatusEntryTests.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\UnitTests\IO\LfsVersionOutputProcessorTests.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\UnitTests\IO\LinuxBasedGitEnvironmentTests.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\UnitTests\IO\LockOutputProcessorTests.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\UnitTests\IO\LogEntryOutputProcessorTests.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\UnitTests\IO\MacBasedGitEnvironmentTests.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\UnitTests\IO\RemoteListOutputProcessorTests.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\UnitTests\IO\StatusOutputProcessorTests.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\UnitTests\IO\VersionOutputProcessorTests.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\UnitTests\IO\WindowsGitEnvironmentTests.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\UnitTests\Primitives\UriStringTests.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\UnitTests\ProcessManagerExtensions.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\UnitTests\Properties\AssemblyInfo.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\UnitTests\SetUpFixture.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\UnitTests\Ssl\MozRootsTests.cs" />
+    <Compile Include="Assets\Unity-master\src\tests\UnitTests\UI\TreeBaseTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Fonts\LuckiestGuy\LICENSE.txt" />
@@ -345,6 +582,21 @@
     <None Include="Assets\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
     <None Include="Assets\PostProcessing\Resources\Shaders\Uber.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
+    <None Include="Assets\Unity-master\CREDITS.txt" />
+    <None Include="Assets\Unity-master\EULA.txt" />
+    <None Include="Assets\Unity-master\src\tests\TestWebServer\files\git-lfs.zip.MD5.txt" />
+    <None Include="Assets\Unity-master\src\tests\TestWebServer\files\git.zip.MD5.txt" />
+    <None Include="Assets\Unity-master\unity\TestProject\ProjectSettings\ProjectVersion.txt" />
+    <None Include="Assets\Unity-master\unity\TestProject\license.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\Unity-master\src\GitHub.Api\Localization.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Localization.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

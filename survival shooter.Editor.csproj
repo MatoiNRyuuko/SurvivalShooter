@@ -274,6 +274,10 @@
       <Project>{7176FB06-96BA-6E0E-DB1E-01361A404EB5}</Project>
       <Name>survival shooter</Name>
     </ProjectReference>
+    <ProjectReference Include="survival shooter.unityproj">
+      <Project>{7176FB06-96BA-6E0E-DB1E-01361A404EB5}</Project>
+      <Name>survival shooter</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\_Complete-Game\MobileInput\Scripts\Editor\CrossPlatformInputInitialize.cs" />
@@ -312,6 +316,41 @@
     <Compile Include="Assets\PostProcessing\Editor\Utils\FxStyles.cs" />
     <Compile Include="Assets\PostProcessing\Editor\Utils\ReflectionUtils.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
+    <Compile Include="Assets\Unity-master\src\UnityExtension\Assets\Editor\GitHub.Unity\ApplicationCache.cs" />
+    <Compile Include="Assets\Unity-master\src\UnityExtension\Assets\Editor\GitHub.Unity\ApplicationManager.cs" />
+    <Compile Include="Assets\Unity-master\src\UnityExtension\Assets\Editor\GitHub.Unity\CacheContainer.cs" />
+    <Compile Include="Assets\Unity-master\src\UnityExtension\Assets\Editor\GitHub.Unity\EntryPoint.cs" />
+    <Compile Include="Assets\Unity-master\src\UnityExtension\Assets\Editor\GitHub.Unity\Extensions\ActionExtensions.cs" />
+    <Compile Include="Assets\Unity-master\src\UnityExtension\Assets\Editor\GitHub.Unity\Logging\UnityLogAdapter.cs" />
+    <Compile Include="Assets\Unity-master\src\UnityExtension\Assets\Editor\GitHub.Unity\Misc\Installer.cs" />
+    <Compile Include="Assets\Unity-master\src\UnityExtension\Assets\Editor\GitHub.Unity\Misc\Styles.cs" />
+    <Compile Include="Assets\Unity-master\src\UnityExtension\Assets\Editor\GitHub.Unity\Misc\Utility.cs" />
+    <Compile Include="Assets\Unity-master\src\UnityExtension\Assets\Editor\GitHub.Unity\Properties\AssemblyInfo.cs" />
+    <Compile Include="Assets\Unity-master\src\UnityExtension\Assets\Editor\GitHub.Unity\RunLocationShim.cs" />
+    <Compile Include="Assets\Unity-master\src\UnityExtension\Assets\Editor\GitHub.Unity\ScriptObjectSingleton.cs" />
+    <Compile Include="Assets\Unity-master\src\UnityExtension\Assets\Editor\GitHub.Unity\SerializableDictionary.cs" />
+    <Compile Include="Assets\Unity-master\src\UnityExtension\Assets\Editor\GitHub.Unity\Services\AuthenticationService.cs" />
+    <Compile Include="Assets\Unity-master\src\UnityExtension\Assets\Editor\GitHub.Unity\Threading\SingleThreadSynchronizationContext.cs" />
+    <Compile Include="Assets\Unity-master\src\UnityExtension\Assets\Editor\GitHub.Unity\Tools\MozRoots.cs" />
+    <Compile Include="Assets\Unity-master\src\UnityExtension\Assets\Editor\GitHub.Unity\UI\AuthenticationView.cs" />
+    <Compile Include="Assets\Unity-master\src\UnityExtension\Assets\Editor\GitHub.Unity\UI\BaseWindow.cs" />
+    <Compile Include="Assets\Unity-master\src\UnityExtension\Assets\Editor\GitHub.Unity\UI\BranchesView.cs" />
+    <Compile Include="Assets\Unity-master\src\UnityExtension\Assets\Editor\GitHub.Unity\UI\ChangesTreeControl.cs" />
+    <Compile Include="Assets\Unity-master\src\UnityExtension\Assets\Editor\GitHub.Unity\UI\ChangesView.cs" />
+    <Compile Include="Assets\Unity-master\src\UnityExtension\Assets\Editor\GitHub.Unity\UI\GitPathView.cs" />
+    <Compile Include="Assets\Unity-master\src\UnityExtension\Assets\Editor\GitHub.Unity\UI\HistoryView.cs" />
+    <Compile Include="Assets\Unity-master\src\UnityExtension\Assets\Editor\GitHub.Unity\UI\InitProjectView.cs" />
+    <Compile Include="Assets\Unity-master\src\UnityExtension\Assets\Editor\GitHub.Unity\UI\IView.cs" />
+    <Compile Include="Assets\Unity-master\src\UnityExtension\Assets\Editor\GitHub.Unity\UI\LfsLocksModificationProcessor.cs" />
+    <Compile Include="Assets\Unity-master\src\UnityExtension\Assets\Editor\GitHub.Unity\UI\LoadingView.cs" />
+    <Compile Include="Assets\Unity-master\src\UnityExtension\Assets\Editor\GitHub.Unity\UI\PopupWindow.cs" />
+    <Compile Include="Assets\Unity-master\src\UnityExtension\Assets\Editor\GitHub.Unity\UI\ProjectWindowInterface.cs" />
+    <Compile Include="Assets\Unity-master\src\UnityExtension\Assets\Editor\GitHub.Unity\UI\PublishView.cs" />
+    <Compile Include="Assets\Unity-master\src\UnityExtension\Assets\Editor\GitHub.Unity\UI\SettingsView.cs" />
+    <Compile Include="Assets\Unity-master\src\UnityExtension\Assets\Editor\GitHub.Unity\UI\Subview.cs" />
+    <Compile Include="Assets\Unity-master\src\UnityExtension\Assets\Editor\GitHub.Unity\UI\TreeControl.cs" />
+    <Compile Include="Assets\Unity-master\src\UnityExtension\Assets\Editor\GitHub.Unity\UI\UserSettingsView.cs" />
+    <Compile Include="Assets\Unity-master\src\UnityExtension\Assets\Editor\GitHub.Unity\UI\Window.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Fonts\LuckiestGuy\LICENSE.txt" />
@@ -355,6 +394,12 @@
     <None Include="Assets\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
     <None Include="Assets\PostProcessing\Resources\Shaders\Uber.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
+    <None Include="Assets\Unity-master\CREDITS.txt" />
+    <None Include="Assets\Unity-master\EULA.txt" />
+    <None Include="Assets\Unity-master\src\tests\TestWebServer\files\git-lfs.zip.MD5.txt" />
+    <None Include="Assets\Unity-master\src\tests\TestWebServer\files\git.zip.MD5.txt" />
+    <None Include="Assets\Unity-master\unity\TestProject\ProjectSettings\ProjectVersion.txt" />
+    <None Include="Assets\Unity-master\unity\TestProject\license.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
